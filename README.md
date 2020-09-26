@@ -1,6 +1,6 @@
 # lights
 
-## Led Lights controls using Arduino Uno and NodeJS
+## Led Lights controls using an Arduino and NodeJS
 
 ##### Installation
 
