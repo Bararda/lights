@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const SerialPort = require('serialport');
 const app = express();
 const port = 80;
-const serialport = new SerialPort('/dev/ttyACM0', { baudRate: 9600 });
+const serialport = new SerialPort('/dev/ttyUSB0', { baudRate: 9600 });
 
 app.use(bodyParser.json());
 
